@@ -1,0 +1,12 @@
+{
+    "name": "daviesgeek/weather_widget-extension",
+    "type": "streams-addon",
+    "autoload": {
+        "psr-4": {
+            "Daviesgeek\\WeatherWidgetExtension\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.1"
+    }
+}
